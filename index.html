@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/pic/favicon.ico" type="image/png">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>TagesJump</title>
+</head>
+<body>
+  <header></header>
+  <section>
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="#" class="breadcrumbs__link">Главная /</a>
+        <a href="#" class="breadcrumbs__link">Системы хранения /</a>
+        <a href="#" class="breadcrumbs__link breadcrumbs__link_active">Комплекты стеллажных систем</a>
+      </div>
+      <h2 class="page-title">Комплекты стеллажных систем</h2>
+      <div class="filter-options">
+        <div class="filter-options__item">
+          <label for="price">Сортировать по:</label>
+          <select name="price" id="price">
+            <option value="sort-asc">Цена по возрастанию</option>
+            <option value="sort-desc">Цена по убыванию</option>
+          </select>
+        </div>
+        <div class="filter-options__item filter-options__item_materials">
+          <label for="material">Материал</label>
+          <select name="material" id="material">
+            <!-- <option value="2">Металл</option>
+            <option value="1">Дерево</option> -->
+          </select>
+        </div>
+      </div>      
+      <div class="product-list"></div>
+    </div>
+  </section>
+  <script src="assets/js/script.js"></script>  
+</body>
+</html>
